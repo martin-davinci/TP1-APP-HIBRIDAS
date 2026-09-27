@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+body {
+    background-color: #121212 !important;
+    margin-top: 5rem;
+}
+
+.titulo {
+    background: url('/img/iconos/logo2.png') no-repeat center center;
+    display: inline-block;
+    width: 11.25rem;
+    height: 2.5rem;
+    text-indent: -999px;
+    overflow: hidden;
+    margin-bottom: 0%;
+}
+.navbar {
+    padding: 0%;
+}
+.b-navegacion {
+    background-color: #121212;
+    width: 100%;
+    border-bottom: solid 1px #ffffff;
+}
+.b-navegacion-cont {
+    padding: 0%;
+}
+
+/*------------------------------NAVEGACION--------------------*/
+
+.offcanvas-body {
+    background-color: #121212;
+    border-left: solid 1px #fff;
+    height: 100%;
+}
+.offcanvas-header {
+    background-color: #121212;
+    border-left: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
+.btn-cruz {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    transition: .3s linear;
+}
+.btn-cruz:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+.navbar-toggler-icon {
+    background-image: none;
+    background-image: url('/img/iconos/menu.png');
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler:hover .navbar-toggler-icon {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#btn-link {
+    width: 100%;
+    text-align: left;
+}
+.nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    transition: .3s linear;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+.nav-link:hover {
+    color: #121212;
+    background-color: #ffffff;
+}
+
+/*------------------------------JUEGOS--------------------*/
+
+.div-conten, .div-conten2 {
+    width: 70%;
+}
+.titulo-destacados-contenedor {
+    width: 70%;
+    margin-top: 50px;
+}
+.juego-titulo-destacados {
+    font-family: "Michroma", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.nav-link-filtro {
+    font-family: "Michroma", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 !important;
+    margin-right: 12px;
+    padding: 0;
+    line-height: 1;
+}
+.nav-link-filtro:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+.nav-link-filtro {
+    margin-right: 12px;
+}
+.nav-item {
+    list-style: none;
+}
+#drop-lista {
+    font-weight: 400;
+    font-size: 14px !important;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+.card-text {
+    color: #ffffff80 !important;
+}
+.card {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 0%;
+}
+.container {
+    margin-top: 150px !important;
+}
+.crear-juego {
+    background-color: rgba(0, 119, 255, 0.712);
+    font-size: 14px;
+    border: none;
+    font-family: "Michroma", sans-serif;
+}
+.crear-juego:hover {
+    background-color: rgba(4, 67, 138, 0.712);
+}
+
+/*----------------------------DETALLES-----------------*/
+
+.card-detalles {
+    width: 600px;
+    background-color: #1a1a1a;
+}
+.cont-detalles {
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title-detalles {
+    font-size: 20px;
+}
+.descripcion {
+    font-size: 16px;
+    color: #ffffff80;
+}
+.img-detalles {
+    width: 600px;
+    height: 300px;
+}
+.btn-opsiones {
+    background-color: rgba(0, 119, 255, 0.712);
+    width: 100%;
+    color: #fff;
+    transition: .3s linear;
+}
+.btn-opsiones:hover {
+    background-color: rgba(4, 67, 138, 0.712);
+}
+
+/*------------------------------FORM--------------------*/
+
+#publicar {
+    margin: 0 0 4rem 0;
+}
+.formulario-datos {
+    display: flex;
+    gap: 10px;
+}
+
+.form_juego_titulo {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.875rem;
+}
+label {
+    display: none;
+}
+
+.form_form_juego .for, .form_form_juego .for-seleccion, .form_form_juego textarea {
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+#textarea {
+    height: 13.125rem;
+    resize: none;
+}
+#env {
+    background-color: rgba(0, 119, 255, 0.712);
+    border: none;
+    color: #fff;
+    width: 12.5rem;
+    transition: .3s linear;
+}
+#env:hover {
+    background-color: rgba(4, 67, 138, 0.712);
+    color: #fff;
+}
+
+/*------------------------------FOOTER--------------------*/
+
+footer {
+    background-color: #121212;
+}
+.divisor {
+    background-color: #ffffff;
+    height: 1px;
+    margin-top: 5%;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+}
+.redes {
+    margin-top: 10px;
+}
+.modal-redes {
+    margin: 0 16px 0 16px;
+    transition: .3s linear;
+}
+.modal-redes:hover {
+    transform: scale(1.5);
+}
+.politica-text {
+    color: #fff;
+    margin-top: 10px;
+    transition: .3s linear;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.politica-text:hover {
+    transform: scale(1.3);
+}
+.politica-text2 {
+    color: #fff;
+    margin-top: 10px;
+    transition: .3s linear;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.info-titulo {
+    background: url('/img/iconos/logo2.png') no-repeat center center;
+    display: inline-block;
+    width: 11.25rem;
+    height: 2.5rem;
+    text-indent: -999px;
+    overflow: hidden;
+    margin-bottom: 0%;
+    justify-content: center;
+}
+.copy {
+    color: #ffffff;
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+}
+.footer-titulo {
+    font-size: 16px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
